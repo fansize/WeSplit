@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E71593C4298F9D560063430D /* GuessFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C3298F9D560063430D /* GuessFlagView.swift */; };
+		E71593C6298FB2B10063430D /* PageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C5298FB2B10063430D /* PageListView.swift */; };
 		E7785BBA298E47F400D79E7E /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7785BB9298E47F400D79E7E /* WeSplitApp.swift */; };
 		E7785BBC298E47F400D79E7E /* WeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7785BBB298E47F400D79E7E /* WeSplitView.swift */; };
 		E7785BBE298E47F600D79E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7785BBD298E47F600D79E7E /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		E71593C3298F9D560063430D /* GuessFlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlagView.swift; sourceTree = "<group>"; };
+		E71593C5298FB2B10063430D /* PageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageListView.swift; sourceTree = "<group>"; };
 		E7785BB6298E47F400D79E7E /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7785BB9298E47F400D79E7E /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 		E7785BBB298E47F400D79E7E /* WeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				E7785BB9298E47F400D79E7E /* WeSplitApp.swift */,
+				E71593C5298FB2B10063430D /* PageListView.swift */,
 				E7785BBB298E47F400D79E7E /* WeSplitView.swift */,
 				E71593C3298F9D560063430D /* GuessFlagView.swift */,
 				E7785BBD298E47F600D79E7E /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7785BBC298E47F400D79E7E /* WeSplitView.swift in Sources */,
+				E71593C6298FB2B10063430D /* PageListView.swift in Sources */,
 				E71593C4298F9D560063430D /* GuessFlagView.swift in Sources */,
 				E7785BBA298E47F400D79E7E /* WeSplitApp.swift in Sources */,
 			);

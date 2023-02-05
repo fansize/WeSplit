@@ -7,11 +7,22 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WeSplitView: View {
     @State private var checkAmount = 0.0
     @State private var numberOfPeople = 2
     @State private var tipPercentage = 20
     let tipPercentages = [10, 15, 20, 25, 0]
+    
+    @FocusState private var amountIsFocused: Bool
+    
+    var grandTotal: Double {
+        let tipSelection = Double(tipPercentage)
+        
+        let tipValue = checkAmount / 100 * tipSelection
+        let payTotal = checkAmount + tipValue
+        
+        return payTotal
+    }
     
     var totalPerson: Double {
         // calculate the total per person here
@@ -37,6 +48,7 @@ struct ContentView: View {
                         Text("Amount")
                     }
                     .keyboardType(.decimalPad)
+                    .focused($amountIsFocused)
                     
                     // MARK: Select number of people
                     Picker("Number of people", selection: $numberOfPeople) {
@@ -60,11 +72,27 @@ struct ContentView: View {
                 }
                 
                 Section {
+                    Text(grandTotal, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                } header: {
+                    Text("Total amount for the check")
+                }
+                
+                Section {
                     Text(totalPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                } header: {
+                    Text("Amout per person")
                 }
             }
             .navigationTitle("WeSplit")
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    Button("Done") {
+                        amountIsFocused = false
+                    }
+                }
+            }
         }
     }
 }
@@ -73,7 +101,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WeSplitView()
     }
 }
 

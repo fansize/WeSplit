@@ -9,7 +9,14 @@ import SwiftUI
 
 struct ViewsAndModifiers: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Gryffindor")
+                .font(.largeTitle)
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
+        }
+        .font(.title)
     }
 }
 

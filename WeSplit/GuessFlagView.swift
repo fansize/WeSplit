@@ -52,8 +52,7 @@ struct GuessFlagView: View {
                         } label: {
                             Image(countries[number])
                                 .renderingMode(.original)
-                                .clipShape(Capsule())
-                                .shadow(radius: 5)
+                                .flagStyle()
                         }
                         .alert(scoreTitle, isPresented: $showingAlert) {
                             Button("Continue") {
@@ -109,5 +108,19 @@ struct GuessFlagView: View {
 struct GuessFlagView_Previews: PreviewProvider {
     static var previews: some View {
         GuessFlagView()
+    }
+}
+
+struct FlagImage: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .clipShape(Capsule())
+            .shadow(radius: 5)
+    }
+}
+
+extension View {
+    func flagStyle() -> some View {
+        modifier(FlagImage())
     }
 }

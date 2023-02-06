@@ -111,6 +111,7 @@ struct GuessFlagView_Previews: PreviewProvider {
     }
 }
 
+// MARK: Custom Modifiers
 struct FlagImage: ViewModifier {
     func body(content: Content) -> some View {
         content

@@ -10,6 +10,7 @@
 		E71593C4298F9D560063430D /* GuessFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C3298F9D560063430D /* GuessFlagView.swift */; };
 		E71593C6298FB2B10063430D /* PageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C5298FB2B10063430D /* PageListView.swift */; };
 		E71593C829914F5E0063430D /* BetterResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C729914F5E0063430D /* BetterResetView.swift */; };
+		E71593CD29928FE20063430D /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E71593CC29928FE20063430D /* SleepCalculator.mlmodel */; };
 		E7785BBA298E47F400D79E7E /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7785BB9298E47F400D79E7E /* WeSplitApp.swift */; };
 		E7785BBC298E47F400D79E7E /* WeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7785BBB298E47F400D79E7E /* WeSplitView.swift */; };
 		E7785BBE298E47F600D79E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7785BBD298E47F600D79E7E /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		E71593C3298F9D560063430D /* GuessFlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlagView.swift; sourceTree = "<group>"; };
 		E71593C5298FB2B10063430D /* PageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageListView.swift; sourceTree = "<group>"; };
 		E71593C729914F5E0063430D /* BetterResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterResetView.swift; sourceTree = "<group>"; };
+		E71593CC29928FE20063430D /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		E7785BB6298E47F400D79E7E /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7785BB9298E47F400D79E7E /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 		E7785BBB298E47F400D79E7E /* WeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E71593C9299285B50063430D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E71593CC29928FE20063430D /* SleepCalculator.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E7785BAD298E47F400D79E7E = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 				E71593C3298F9D560063430D /* GuessFlagView.swift */,
 				E79DC62F2990B58400B8FEA5 /* ViewsAndModifiers.swift */,
 				E71593C729914F5E0063430D /* BetterResetView.swift */,
+				E71593C9299285B50063430D /* Models */,
 				E7785BBD298E47F600D79E7E /* Assets.xcassets */,
 				E7785BBF298E47F600D79E7E /* Preview Content */,
 			);
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71593C829914F5E0063430D /* BetterResetView.swift in Sources */,
+				E71593CD29928FE20063430D /* SleepCalculator.mlmodel in Sources */,
 				E79DC6302990B58400B8FEA5 /* ViewsAndModifiers.swift in Sources */,
 				E7785BBC298E47F400D79E7E /* WeSplitView.swift in Sources */,
 				E71593C6298FB2B10063430D /* PageListView.swift in Sources */,

@@ -15,6 +15,7 @@ struct PageListView: View {
             Form {
                 NavigationLink("WeSplit", destination: WeSplitView())
                 NavigationLink("GuessTheFlag", destination: GuessFlagView())
+                NavigationLink("BetterReset", destination: BetterResetView())
             }
             .navigationTitle("HackSwift Practice")
         }

@@ -37,23 +37,34 @@ struct BetterResetView: View {
     var body: some View {
         NavigationStack {
             Form {
-                VStack(alignment: .leading) {
-                    Text("When do you want to wake up?")
-                        .font(.headline)
-                    DatePicker("Please enter a date", selection: $wakeUp, displayedComponents: .hourAndMinute)
-                        .labelsHidden()
-                    
-                    Text("Desired amount of sleep")
-                        .font(.headline)
-                    Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.5)
-                    
-                    Text("Daily coffee intake")
-                        .font(.headline)
-                    Stepper(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount) cups", value: $coffeeAmount, in: 1...20)
+                Section("Edit your information") {
+                    VStack(alignment: .leading) {
+                        Text("When do you want to wake up?")
+                            .font(.headline)
+                        DatePicker("Please enter a date", selection: $wakeUp, displayedComponents: .hourAndMinute)
+                            .labelsHidden()
+                        
+                        Text("Desired amount of sleep")
+                            .font(.headline)
+                        Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.5)
+                        
+                        // 样式1
+//                        Text("Daily coffee intake")
+//                            .font(.headline)
+//                        Stepper(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount) cups", value: $coffeeAmount, in: 1...20)
+                        
+                        // 样式2
+                        Picker("Daily coffee intake", selection: $coffeeAmount) {
+                            ForEach(0..<20) {
+                                Text($0 <= 1 ? "1 cup" : "\($0) cups")
+                            }
+                        }
+                    }
                 }
                 
                 Section("Suggest sleep time") {
                     Text(sleepTime, style:.time)
+                        .font(.title)
                 }
             }
             .navigationTitle("Better Reset")
@@ -66,7 +77,6 @@ struct BetterResetView: View {
             } message: {
                 Text(alterMessage)
             }
-            
         }
     }
     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E706A0522995425700922262 /* WorldScrambleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706A0512995425700922262 /* WorldScrambleView.swift */; };
 		E71593C4298F9D560063430D /* GuessFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C3298F9D560063430D /* GuessFlagView.swift */; };
 		E71593C6298FB2B10063430D /* PageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C5298FB2B10063430D /* PageListView.swift */; };
 		E71593C829914F5E0063430D /* BetterResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C729914F5E0063430D /* BetterResetView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E706A0512995425700922262 /* WorldScrambleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldScrambleView.swift; sourceTree = "<group>"; };
 		E71593C3298F9D560063430D /* GuessFlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlagView.swift; sourceTree = "<group>"; };
 		E71593C5298FB2B10063430D /* PageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageListView.swift; sourceTree = "<group>"; };
 		E71593C729914F5E0063430D /* BetterResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterResetView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				E71593C3298F9D560063430D /* GuessFlagView.swift */,
 				E79DC62F2990B58400B8FEA5 /* ViewsAndModifiers.swift */,
 				E71593C729914F5E0063430D /* BetterResetView.swift */,
+				E706A0512995425700922262 /* WorldScrambleView.swift */,
 				E71593C9299285B50063430D /* Models */,
 				E7785BBD298E47F600D79E7E /* Assets.xcassets */,
 				E7785BBF298E47F600D79E7E /* Preview Content */,
@@ -166,6 +169,7 @@
 				E7785BBC298E47F400D79E7E /* WeSplitView.swift in Sources */,
 				E71593C6298FB2B10063430D /* PageListView.swift in Sources */,
 				E71593C4298F9D560063430D /* GuessFlagView.swift in Sources */,
+				E706A0522995425700922262 /* WorldScrambleView.swift in Sources */,
 				E7785BBA298E47F400D79E7E /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,7 @@
 		E7785BBC298E47F400D79E7E /* WeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7785BBB298E47F400D79E7E /* WeSplitView.swift */; };
 		E7785BBE298E47F600D79E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7785BBD298E47F600D79E7E /* Assets.xcassets */; };
 		E7785BC1298E47F600D79E7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7785BC0298E47F600D79E7E /* Preview Assets.xcassets */; };
+		E77C147B29972F0800CC9DE2 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = E77C147A29972F0800CC9DE2 /* start.txt */; };
 		E79DC6302990B58400B8FEA5 /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79DC62F2990B58400B8FEA5 /* ViewsAndModifiers.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		E7785BBB298E47F400D79E7E /* WeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitView.swift; sourceTree = "<group>"; };
 		E7785BBD298E47F600D79E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7785BC0298E47F600D79E7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E77C147A29972F0800CC9DE2 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		E79DC62F2990B58400B8FEA5 /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				E79DC62F2990B58400B8FEA5 /* ViewsAndModifiers.swift */,
 				E71593C729914F5E0063430D /* BetterResetView.swift */,
 				E706A0512995425700922262 /* WorldScrambleView.swift */,
+				E77C147929972EF000CC9DE2 /* Resources */,
 				E71593C9299285B50063430D /* Models */,
 				E7785BBD298E47F600D79E7E /* Assets.xcassets */,
 				E7785BBF298E47F600D79E7E /* Preview Content */,
@@ -91,6 +94,14 @@
 				E7785BC0298E47F600D79E7E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E77C147929972EF000CC9DE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E77C147A29972F0800CC9DE2 /* start.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7785BC1298E47F600D79E7E /* Preview Assets.xcassets in Resources */,
+				E77C147B29972F0800CC9DE2 /* start.txt in Resources */,
 				E7785BBE298E47F600D79E7E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

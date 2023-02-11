@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct PageListView: View {
-    var projects = ["WeSplit", "GuessTheFlag"]
-    
     var body: some View {
         NavigationStack {
             Form {
                 NavigationLink("WeSplit", destination: WeSplitView())
                 NavigationLink("GuessTheFlag", destination: GuessFlagView())
                 NavigationLink("BetterReset", destination: BetterResetView())
+                NavigationLink("WordScramble", destination: WorldScrambleView())
             }
             .navigationTitle("HackSwift Practice")
         }

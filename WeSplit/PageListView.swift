@@ -15,6 +15,8 @@ struct PageListView: View {
                 NavigationLink("GuessTheFlag", destination: GuessFlagView())
                 NavigationLink("BetterReset", destination: BetterResetView())
                 NavigationLink("WordScramble", destination: WorldScrambleView())
+                NavigationLink("UserDefault", destination: UserDefaultView())
+                NavigationLink("iExpense", destination: IExpenceView())
             }
             .navigationTitle("HackSwift Practice")
         }

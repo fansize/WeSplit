@@ -28,6 +28,7 @@
 		E7D169B4299884E10033BDC7 /* IExpenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D169B3299884E10033BDC7 /* IExpenceView.swift */; };
 		E7D169B62998D7FB0033BDC7 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D169B52998D7FB0033BDC7 /* ExampleView.swift */; };
 		E7D169B82998E86A0033BDC7 /* UserDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D169B72998E86A0033BDC7 /* UserDefaultView.swift */; };
+		E7D715C529A3342400105B99 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D715C429A3342400105B99 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		E7D169B3299884E10033BDC7 /* IExpenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IExpenceView.swift; sourceTree = "<group>"; };
 		E7D169B52998D7FB0033BDC7 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		E7D169B72998E86A0033BDC7 /* UserDefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultView.swift; sourceTree = "<group>"; };
+		E7D715C429A3342400105B99 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				E7A69EBC299A69BD00A74466 /* AddExpenceView.swift */,
 				E7A69EC0299BC95400A74466 /* MoonShotView.swift */,
 				E71B79FF29A25F5000AE63F1 /* Astronaut.swift */,
+				E7D715C429A3342400105B99 /* Mission.swift */,
 				E71B7A0129A25FBD00AE63F1 /* Bundle-Decodable.swift */,
 				E71B79FE29A25B2C00AE63F1 /* JSONs */,
 				E7D169B92998F55B0033BDC7 /* Practice */,
@@ -236,6 +239,7 @@
 				E7D169B82998E86A0033BDC7 /* UserDefaultView.swift in Sources */,
 				E71B7A0229A25FBD00AE63F1 /* Bundle-Decodable.swift in Sources */,
 				E7D169B62998D7FB0033BDC7 /* ExampleView.swift in Sources */,
+				E7D715C529A3342400105B99 /* Mission.swift in Sources */,
 				E71B7A0029A25F5000AE63F1 /* Astronaut.swift in Sources */,
 				E7A69EBF299BC94500A74466 /* P9View.swift in Sources */,
 				E7A69EBD299A69BD00A74466 /* AddExpenceView.swift in Sources */,

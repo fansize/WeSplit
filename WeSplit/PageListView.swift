@@ -17,6 +17,7 @@ struct PageListView: View {
                 NavigationLink("WordScramble", destination: WorldScrambleView())
                 NavigationLink("iExpence", destination: IExpenceView())
                 NavigationLink("MoonShot", destination: MoonShotView())
+                NavigationLink("P11", destination: P11View())
             }
             .navigationTitle("HackSwift Practice")
         }

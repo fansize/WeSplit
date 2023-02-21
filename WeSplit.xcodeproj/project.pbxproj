@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E706A0522995425700922262 /* WorldScrambleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706A0512995425700922262 /* WorldScrambleView.swift */; };
+		E70A66BC29A4EEF000CD5E94 /* P11View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A66BB29A4EEF000CD5E94 /* P11View.swift */; };
+		E70A66BF29A5076F00CD5E94 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A66BE29A5076F00CD5E94 /* Order.swift */; };
+		E70A66C329A507E600CD5E94 /* CupCakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A66C229A507E600CD5E94 /* CupCakeView.swift */; };
+		E70A66C529A50C4600CD5E94 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A66C429A50C4600CD5E94 /* AddressView.swift */; };
 		E71593C4298F9D560063430D /* GuessFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C3298F9D560063430D /* GuessFlagView.swift */; };
 		E71593C6298FB2B10063430D /* PageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C5298FB2B10063430D /* PageListView.swift */; };
 		E71593C829914F5E0063430D /* BetterResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71593C729914F5E0063430D /* BetterResetView.swift */; };
@@ -36,6 +40,11 @@
 
 /* Begin PBXFileReference section */
 		E706A0512995425700922262 /* WorldScrambleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldScrambleView.swift; sourceTree = "<group>"; };
+		E70A66BB29A4EEF000CD5E94 /* P11View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P11View.swift; sourceTree = "<group>"; };
+		E70A66BD29A4FB8A00CD5E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E70A66BE29A5076F00CD5E94 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E70A66C229A507E600CD5E94 /* CupCakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCakeView.swift; sourceTree = "<group>"; };
+		E70A66C429A50C4600CD5E94 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		E71593C3298F9D560063430D /* GuessFlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlagView.swift; sourceTree = "<group>"; };
 		E71593C5298FB2B10063430D /* PageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageListView.swift; sourceTree = "<group>"; };
 		E71593C729914F5E0063430D /* BetterResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterResetView.swift; sourceTree = "<group>"; };
@@ -122,6 +131,9 @@
 				E7A69EC0299BC95400A74466 /* MoonShotView.swift */,
 				E7D715CA29A3AB0000105B99 /* MissionView.swift */,
 				E7D715CC29A3B95300105B99 /* AstronautView.swift */,
+				E70A66C229A507E600CD5E94 /* CupCakeView.swift */,
+				E70A66C429A50C4600CD5E94 /* AddressView.swift */,
+				E70A66BE29A5076F00CD5E94 /* Order.swift */,
 				E7D715C629A3A4CB00105B99 /* Models */,
 				E7D715C729A3A4FC00105B99 /* Extensions */,
 				E71B79FE29A25B2C00AE63F1 /* JSONs */,
@@ -129,6 +141,7 @@
 				E77C147929972EF000CC9DE2 /* Resources */,
 				E71593C9299285B50063430D /* AIModels */,
 				E7785BBD298E47F600D79E7E /* Assets.xcassets */,
+				E70A66BD29A4FB8A00CD5E94 /* Info.plist */,
 				E7785BBF298E47F600D79E7E /* Preview Content */,
 			);
 			path = WeSplit;
@@ -156,6 +169,7 @@
 				E7D169B52998D7FB0033BDC7 /* ExampleView.swift */,
 				E7D169B72998E86A0033BDC7 /* UserDefaultView.swift */,
 				E7A69EBE299BC94500A74466 /* P9View.swift */,
+				E70A66BB29A4EEF000CD5E94 /* P11View.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -255,15 +269,19 @@
 				E71593CD29928FE20063430D /* SleepCalculator.mlmodel in Sources */,
 				E79DC6302990B58400B8FEA5 /* ViewsAndModifiers.swift in Sources */,
 				E7785BBC298E47F400D79E7E /* WeSplitView.swift in Sources */,
+				E70A66BF29A5076F00CD5E94 /* Order.swift in Sources */,
+				E70A66C529A50C4600CD5E94 /* AddressView.swift in Sources */,
 				E71593C6298FB2B10063430D /* PageListView.swift in Sources */,
 				E7D715CB29A3AB0000105B99 /* MissionView.swift in Sources */,
 				E71593C4298F9D560063430D /* GuessFlagView.swift in Sources */,
 				E7D169B4299884E10033BDC7 /* IExpenceView.swift in Sources */,
 				E7D715C929A3A50E00105B99 /* Color-Theme.swift in Sources */,
 				E706A0522995425700922262 /* WorldScrambleView.swift in Sources */,
+				E70A66BC29A4EEF000CD5E94 /* P11View.swift in Sources */,
 				E7785BBA298E47F400D79E7E /* WeSplitApp.swift in Sources */,
 				E7A69EC1299BC95400A74466 /* MoonShotView.swift in Sources */,
 				E7D169B82998E86A0033BDC7 /* UserDefaultView.swift in Sources */,
+				E70A66C329A507E600CD5E94 /* CupCakeView.swift in Sources */,
 				E71B7A0229A25FBD00AE63F1 /* Bundle-Decodable.swift in Sources */,
 				E7D715CD29A3B95300105B99 /* AstronautView.swift in Sources */,
 				E7D169B62998D7FB0033BDC7 /* ExampleView.swift in Sources */,
@@ -402,7 +420,7 @@
 				DEVELOPMENT_TEAM = NPQHYBSUAH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = WeSplit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -431,7 +449,7 @@
 				DEVELOPMENT_TEAM = NPQHYBSUAH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = WeSplit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

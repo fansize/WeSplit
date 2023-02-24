@@ -11,7 +11,26 @@ struct AddressView: View {
     @ObservedObject var order: Order
     
     var body: some View {
-        Text("Hello, World!")
+        NavigationStack {
+            Form {
+                Section {
+                    TextField("Name", text: $order.name)
+                    TextField("Street Address", text: $order.streetAddress)
+                    TextField("City", text: $order.city)
+                    TextField("Zip", text: $order.zip)
+                }
+                Section{
+                    NavigationLink {
+                        CheckOutView(order: order)
+                    } label: {
+                        Text("Check out")
+                    }
+                }
+                .disabled(order.hasValidAddress == false)
+            }
+            .navigationTitle("Delivery Details")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 
